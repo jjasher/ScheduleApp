@@ -30,23 +30,25 @@ A desktop scheduling application built in C# with a MySQL backend. It supports f
 - ADO.NET with parameterized queries to prevent SQL injection
 
 ## Project Structure
+
+```
 ScheduleApp/
 ├── DataAccess/
-│ └── DBconnection.cs Handles the MySQL connection
+│   └── DBconnection.cs        Handles the MySQL connection
 ├── Forms/
-│ ├── LoginForm.cs Login, validation, and login history
-│ ├── MainForm.cs Main navigation
-│ ├── CustomersForm.cs Customer list and management
-│ ├── AddCustomerForm.cs
-│ ├── UpdateCustomerForm.cs
-│ ├── AppointmentForm.cs Appointment list and management
-│ ├── AddAppointmentForm.cs Overlap and business hours checks
-│ ├── UpdateAppointmentForm.cs
-│ └── ReportsForm.cs Monthly, user, and daily reports
-├── Appointment.cs Appointment model
-├── AppointmentReport.cs Report data model
-└── App.config Connection string configuration
-
+│   ├── LoginForm.cs           Login, validation, and login history
+│   ├── MainForm.cs            Main navigation
+│   ├── CustomersForm.cs       Customer list and management
+│   ├── AddCustomerForm.cs
+│   ├── UpdateCustomerForm.cs
+│   ├── AppointmentForm.cs     Appointment list and management
+│   ├── AddAppointmentForm.cs  Overlap and business hours checks
+│   ├── UpdateAppointmentForm.cs
+│   └── ReportsForm.cs         Monthly, user, and daily reports
+├── Appointment.cs             Appointment model
+├── AppointmentReport.cs       Report data model
+└── App.config                 Connection string configuration
+```
 
 ## Getting Started
 
